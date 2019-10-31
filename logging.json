@@ -19,30 +19,30 @@
             "class": "logging.handlers.RotatingFileHandler",
             "level": "INFO",
             "formatter": "simple",
-            "filename": "app_info.log",
+            "filename": "base_info.log",
             "maxBytes": 10485760,
             "backupCount": 20,
-            "encoding": "utf8"
+            "encoding": "utf-8"
         },
 
         "error_file_handler": {
             "class": "logging.handlers.RotatingFileHandler",
             "level": "ERROR",
             "formatter": "simple",
-            "filename": "app_error.log",
+            "filename": "base_error.log",
             "maxBytes": 10485760,
             "backupCount": 20,
-            "encoding": "utf8"
+            "encoding": "utf-8"
         },
 
         "debug_file_handler": {
             "class": "logging.handlers.RotatingFileHandler",
             "level": "DEBUG",
             "formatter": "simple",
-            "filename": "app_debug.log",
+            "filename": "base_debug.log",
             "maxBytes": 10485760,
             "backupCount": 20,
-            "encoding": "utf8"
+            "encoding": "utf-8"
         }
     },
 
